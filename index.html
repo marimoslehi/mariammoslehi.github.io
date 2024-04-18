@@ -1,94 +1,38 @@
-# mariammoslehi.github.io
+<!DOCTYPE html>
 <html lang="en-US">
-  <head>
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-
-    <title>Assignment1 Problem2</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One"
-      rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-
-  <body>
-    <!-- Here is our main header that is used across all the pages of our website -->
-
-    <header>
-      <h1>Assignment1</h1>
-    </header>
-
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">My Projects</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-
-      <!-- A Search form is another common non-linear way to navigate through a website. -->
-
-      <form>
-        <input type="search" name="q" placeholder="Search query" />
-        <input type="submit" value="Go!" />
-      </form>
-    </nav>
-
-    <!-- Here is our page's main content -->
+    <title>About & CSC 193A Assignments</title>
+    <style>
+        body {
+            background-image: url('background.jpeg');
+            background-size: cover;
+            color: black;
+            font-family: serif; /* Default serif font */
+        }
+        nav, header, footer, form, .related {
+            display: none; /* Hide elements not needed */
+        }
+        #about h1 {
+            border-bottom: 1px solid black; /* Adds a black line under the About heading */
+        }
+    </style>
+</head>
+<body>
     <main>
-      <!-- It contains an article -->
-      <article>
-        <h2>Home</h2>
-        <h3>   About Me</h3>
-        <p>
-            As a junior at Sacramento State University, I am eager to bring my passion for technology and problem-solving to an entry-level software development or software engineering role. I have experience in education and leadership, including as a TA and tutor for American River College and as a member of Communication for the English Language Learner
-             & Immigrant Support (ELLIS) Club. I was also a co-founder of the computer science club at American River College. I am skilled in C++, Java, and Assembly language. I am a quick learner, highly motivated, and committed to achieving great results. I am excited to contribute my skills and enthusiasm to a dynamic and innovatve team
-        </p>
-        <h2>My Projects</h2>
-        <h3>   Problem 1</h3>
-
-        <p>
-            Turn in your index.html file and the edits described in the link above (copied here):
-
-            Just below the opening tag of the Links to an external site. element, add a main title for the document. This should be wrapped inside an opening tag and closing tag.
-            Edit the paragraph content to include text about a topic that you find interesting.
-            Make important words stand out in bold by wrapping them inside a <strong> opening tag and </strong> closing tag.
-            Add a link to your paragraph, as explained earlier in the articleLinks to an external site..
-            Add an image to your document. Place it below the paragraph, as explained earlier in the articleLinks to an external site.. 
-            Earn bonus points if you manage to link to a different image (either locally on your computer, or somewhere else on the web).
-        </p>
-
-        <h3>   Problem 2</h3>
-
-        <p>
-            Use your index.html website to do the above exercise. Generate some new "features" or content for your website.
-            Create a sitemap following the above exercise. You can hand draw this or use your preferred drawing software
-            Turn in your sitemap of your small webpage with a few different subpages -- Turn it in a PDF format.
-        </p>
-
-
-        <h2>Contact</h2>
-
-        <p>
-          My contact number: 916-123-456
-        </p>
-      </article>
-        <aside>
-          <h2>Related</h2>
-          <ul>
-            <li><a href="#">Assignment 2</a></li>
-            <li><a href="#">Assignment 3</a></li>
-            <li><a href="#">Assignment 4</a></li>
-            <li><a href="fancifymytext.html">Assignment 5</a></li>
-            <li><a href="encrypt-it.html">Assignment 6</a></li>
-          </ul>
-        </aside>
-
+        <section id="about">
+            <p>Welcome to CSC 193A site!</p>
+            <h1>About</h1>
+        </section>
+        <section id="assignments">
+            <h1>CSC 193A Assignments</h1>
+            <ul>
+                <li><a href="fancifymytext.html">Assignment 5</a></li>
+                <li><a href="encrypt-it.html">Assignment 6</a></li>
+            </ul>
+        </section>
     </main>
-
-    <!-- And here is our main footer that is used across all the pages of our website -->
-
-    <footer>
-      <p>©Copyright 2050 by nobody. All rights reversed.</p>
-    </footer>
-  </body>
+</body>
 </html>
+
